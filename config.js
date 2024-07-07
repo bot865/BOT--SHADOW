@@ -8,21 +8,21 @@ import axios from 'axios';
 import moment from 'moment-timezone';
 
 global.owner = [
-  ['‪201112422078‬', '𝑀𝐼𝐾𝐸𝑌', true],
-  ['201153573240', '𝐾𝐴𝐾𝐴𝑺𝐻𝐼', true],
-    ['96895131757', '𝑺𝐻𝐼𝑁𝑅𝐴', true],
+  ['‪201028085788', '𝐸𝐿𝐴𝐾𝑅𝐴𝐵 𝐸𝐿𝑌𝛩𝑇𝑈𝐵𝐸𝑅', true],
+  ['201028085788', '𝐸𝐿𝐴𝐾𝑅𝐴𝐵 𝐸𝐿𝑌𝛩𝑇𝑈𝐵𝐸𝑅', true],
+    ['201143638030', '𝐸𝐿𝐴𝐾𝑅𝐴𝐵 𝐵𝛩𝑇', true],
 ];
 
-global.xaxa = '𝑀𝐼𝐾𝐸𝑌'
-global.suittag = ['201112422078', '201153573240'];
-global.prems = ['201153573240', '201112422078'];
+global.xaxa = '𝐸𝐿𝐴𝐾𝑅𝐴𝐵 𝐸𝐿𝑌𝛩𝑇𝑈𝐵𝐸𝑅'
+global.suittag = ['201028085788', '201028085788'];
+global.prems = ['201028085788', '201143638030'];
 
-global.packname = '𝑺𝐻𝐴𝐷𝛩𝑊 𝐵𝛩𝑇';
-global.author = '★𝑺𝐻𝐴𝐷𝛩𝑊 𝐵𝛩𝑇★';
-global.wm = '★𝑺𝐻𝐴𝐷𝛩𝑊 𝐵𝛩𝑇★';
-global.titulowm = ' 𝑺𝐻𝐴𝐷𝛩𝑊 𝐵𝛩𝑇 ';
-global.titulowm2 = ` 𝑺𝐻𝐴𝐷𝛩𝑊 𝐵𝛩𝑇 `
-global.igfg = ' 𝑺𝐻𝐴𝐷𝛩𝑊 𝐵𝛩𝑇 ';
+global.packname = '𝐸𝐿𝐴𝐾𝑅𝐴𝐵 𝐵𝛩𝑇';
+global.author = '★𝐸𝐿𝐴𝐾𝑅𝐴𝐵 𝐵𝛩𝑇★';
+global.wm = '★𝐸𝐿𝐴𝐾𝑅𝐴𝐵 𝐵𝛩𝑇★';
+global.titulowm = ' 𝐸𝐿𝐴𝐾𝑅𝐴𝐵 𝐵𝛩𝑇 ';
+global.titulowm2 = ` 𝐸𝐿𝐴𝐾𝑅𝐴𝐵 𝐵𝛩𝑇 `
+global.igfg = ' 𝐸𝐿𝐴𝐾𝑅𝐴𝐵 𝐵𝛩𝑇 ';
 global.wait = '*⌛ _جاري التحميل..._*\n\n*▰▰▰▱▱▱▱▱*';
 
 global.imagen1 = fs.readFileSync('./Menu2.jpg');
@@ -44,10 +44,10 @@ global.año = d.toLocaleDateString('ar', {year: 'numeric'});
 global.tiempo = d.toLocaleString('en-US', {hour: 'numeric', minute: 'numeric', second: 'numeric', hour12: true});
 //* ****************************
 global.wm2 = `▸ ${dia} ${fecha}\n▸ 𝚃𝚑𝚎 𝙼𝚢𝚜𝚝𝚒𝚌 - 𝙱𝚘𝚝`;
-global.gt = '★𝑀𝐼𝐾𝐸𝑌★';
-global.mysticbot = '★𝑀𝐼𝐾𝐸𝑌★';
-global.md = 'https://chat.whatsapp.com/BM6tmSIPz5zJZJRJHvIHv0';
-global.mysticbot = 'https://chat.whatsapp.com/BM6tmSIPz5zJZJRJHvIHv0';
+global.gt = '★𝐸𝐿𝐴𝐾𝑅𝐴𝐵 𝐸𝐿𝑌𝛩𝑇𝑈𝐵𝐸𝑅★';
+global.mysticbot = '★𝐸𝐿𝐴𝐾𝑅𝐴𝐵 𝐸𝐿𝑌𝛩𝑇𝑈𝐵𝐸𝑅★';
+global.md = 'https://whatsapp.com/channel/0029VahbMZl4tRrkdpJrCv2f';
+global.mysticbot = 'https://whatsapp.com/channel/0029VahbMZl4tRrkdpJrCv2f';
 global.waitt = '*⌛ _جاري التحميل..._*\n\n*▰▰▰▱▱▱▱▱*';
 global.waittt = '*⌛ _جاري التحميل..._*\n\n*▰▰▰▱▱▱▱▱*';
 global.waitttt = '*⌛ _جاري التحميل..._*\n\n*▰▰▰▱▱▱▱▱*';
